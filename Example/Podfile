@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BlendnetBeta_Tests' do
+  pod 'BlendnetBeta', :path => '../'
+  
+  
+end
