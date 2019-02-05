@@ -25,7 +25,7 @@ An extra-long meaningful description of BlendnetBeta.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ramapriya' => 'ramapriya288@gmail.com' }
-  s.source           = { :git => 'https://github.com/rama25/BlendnetBeta.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/rama25/BlendnetBeta.git', :tag => s.version.to_s, :commit => "5705a2b121a8d290578689d8a094b5c8f1e296eb" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

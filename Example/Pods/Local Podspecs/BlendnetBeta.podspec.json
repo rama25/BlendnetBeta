@@ -13,7 +13,8 @@
   },
   "source": {
     "git": "https://github.com/rama25/BlendnetBeta.git",
-    "tag": "0.1.1"
+    "tag": "0.1.1",
+    "commit": "5705a2b121a8d290578689d8a094b5c8f1e296eb"
   },
   "platforms": {
     "ios": "9.0"
