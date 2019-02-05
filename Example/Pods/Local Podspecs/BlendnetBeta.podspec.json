@@ -1,0 +1,27 @@
+{
+  "name": "BlendnetBeta",
+  "version": "0.1.1",
+  "summary": "A meaningful description of BlendnetBeta.",
+  "description": "An extra-long meaningful description of BlendnetBeta.",
+  "homepage": "https://github.com/rama25/BlendnetBeta",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ramapriya": "ramapriya288@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rama25/BlendnetBeta.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Classes/*.{h,m,swift}",
+  "frameworks": [
+    "UIKit",
+    "AVKit",
+    "AVFoundation"
+  ]
+}

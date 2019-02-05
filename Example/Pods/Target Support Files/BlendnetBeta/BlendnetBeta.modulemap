@@ -1,0 +1,6 @@
+framework module BlendnetBeta {
+  umbrella header "BlendnetBeta-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - BlendnetBeta (0.1.1)
+
+DEPENDENCIES:
+  - BlendnetBeta (from `../`)
+
+EXTERNAL SOURCES:
+  BlendnetBeta:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BlendnetBeta: c7cd11377e39593e0bb4f2537f4b4f701a62642b
+
+PODFILE CHECKSUM: 7c20992cb6a0e8e2d371dc1849e92f4c689501e3
+
+COCOAPODS: 1.5.3
