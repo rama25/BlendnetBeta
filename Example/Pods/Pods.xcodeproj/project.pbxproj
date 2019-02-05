@@ -7,48 +7,136 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03D4DD1138E17B1C8EBD4936E160592C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		1C0B1B7858DFEC5E5EB74DDD72D2CEBF /* Pods-BlendnetBeta_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 819F70FCD56324EB621052A38CFDB731 /* Pods-BlendnetBeta_Tests-dummy.m */; };
-		9EEF2A57E65881ADA8CDC0036EDF2B11 /* Pods-BlendnetBeta_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B776A49EB0B8E9C68678B3E11B7F9B /* Pods-BlendnetBeta_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		176807FA032792D6463ADAE4682DB3C7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4AAFC3F2DA20DA80AB29233FABF87 /* Extensions.swift */; };
+		1C944179C8971035527C796E162C44F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FAAE9EFCAEC1F23EB26BDC8FD39D33 /* Foundation.framework */; };
+		26B75CCED69F91AD473837C70D160409 /* BlendnetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA04BCF6EE716EDA7F85EAC3EA6306 /* BlendnetView.swift */; };
+		5458955352DC62E3D7C5C67A8DEAE79F /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8716DF756C7DB4EFCF8240A674A4A7A5 /* AVKit.framework */; };
+		7018CEB98FE07EDDD9CAE786BAAEFA19 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B8E9936CF35ACD7E49728F6EC5AA13 /* AVFoundation.framework */; };
+		751D40396AD3E21E01A8D5148FEE9181 /* Pods-BlendnetBeta_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 819F70FCD56324EB621052A38CFDB731 /* Pods-BlendnetBeta_Tests-dummy.m */; };
+		987DBA4BF3F1E6FD0C29AE96D6AAC129 /* BlendnetBeta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1F9F555C72763D1AABAA6D52C7C17B /* BlendnetBeta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF5F55C0AB26A7452D5251EA5C502999 /* Pods-BlendnetBeta_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B776A49EB0B8E9C68678B3E11B7F9B /* Pods-BlendnetBeta_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D558E5F0D1B958B1C3B45B48A01C4B8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE297D271152016B9E9347DDED2FFB7A /* UIKit.framework */; };
+		E36B1CD157A0B690A792B95FB39CCE5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FAAE9EFCAEC1F23EB26BDC8FD39D33 /* Foundation.framework */; };
+		FF9C9038F60053FCBF68A9D9857C3F44 /* BlendnetBeta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1160316049BF532C316AD9338EEE4388 /* BlendnetBeta-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		796F482DF2EF2210C55903B6C70E600F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C425D5206783C0EAF65005F8F6B6CA79;
+			remoteInfo = BlendnetBeta;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0F0F13191C2D8843F99D66FEE27ADF9C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		103B7841332A43B19102238FEB9684E1 /* Pods-BlendnetBeta_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BlendnetBeta_Tests.modulemap"; sourceTree = "<group>"; };
+		10BA04BCF6EE716EDA7F85EAC3EA6306 /* BlendnetView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlendnetView.swift; path = Classes/BlendnetView.swift; sourceTree = "<group>"; };
+		1160316049BF532C316AD9338EEE4388 /* BlendnetBeta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlendnetBeta-dummy.m"; sourceTree = "<group>"; };
+		11D4B004FD648FD73B1F0905AB0FFC2E /* BlendnetBeta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BlendnetBeta.framework; path = BlendnetBeta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AF101BA988D8E01C43E843457B4FD9 /* BlendnetBeta.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BlendnetBeta.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		348B36DFF0920A959AD3C757B145F2B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		38D20118D9E84B61320C05D9CDD655DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2B1F9F555C72763D1AABAA6D52C7C17B /* BlendnetBeta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlendnetBeta-umbrella.h"; sourceTree = "<group>"; };
+		4353F307E5E93FCBCC01406C99C35250 /* BlendnetBeta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlendnetBeta.modulemap; sourceTree = "<group>"; };
+		63D4AAFC3F2DA20DA80AB29233FABF87 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Classes/Extensions.swift; sourceTree = "<group>"; };
+		66B8E9936CF35ACD7E49728F6EC5AA13 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		74E38EC182539127402187C86F8784EA /* BlendnetBeta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlendnetBeta-prefix.pch"; sourceTree = "<group>"; };
 		7F4C03CCB03705A07AE6F376222B8723 /* Pods-BlendnetBeta_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlendnetBeta_Tests-resources.sh"; sourceTree = "<group>"; };
 		819F70FCD56324EB621052A38CFDB731 /* Pods-BlendnetBeta_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlendnetBeta_Tests-dummy.m"; sourceTree = "<group>"; };
+		84A3F28326F990B1D8C081F44D833EBD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		85B776A49EB0B8E9C68678B3E11B7F9B /* Pods-BlendnetBeta_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlendnetBeta_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8716DF756C7DB4EFCF8240A674A4A7A5 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVKit.framework; sourceTree = DEVELOPER_DIR; };
+		91358E0742276246ED1B3A377BD51D1A /* BlendnetBeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlendnetBeta.xcconfig; sourceTree = "<group>"; };
 		98CD243E9CB4FBBFEE5A468503A3CB58 /* Pods-BlendnetBeta_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlendnetBeta_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1FAAE9EFCAEC1F23EB26BDC8FD39D33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B8B6802C17C37DB0C93B0B5F07DC7496 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6B28D20951AEB1D1232274BAC4F93BF /* BlendnetBeta.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BlendnetBeta.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BE297D271152016B9E9347DDED2FFB7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD85B220AC1106595AA4668FDC872810 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D1BD83CFB371A68F47517CDBA1C16909 /* Pods-BlendnetBeta_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlendnetBeta_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D2CD578910844FF70F4FFD8F3BD6B279 /* Pods_BlendnetBeta_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BlendnetBeta_Tests.framework; path = "Pods-BlendnetBeta_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A14E167DD6F865F751E388DCBFB50B /* Pods-BlendnetBeta_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlendnetBeta_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D5CC6967EF6C63EF673A3070495FA334 /* Pods-BlendnetBeta_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlendnetBeta_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E5567F0B7AB56328C852CB6FB91C9ED8 /* Pods_BlendnetBeta_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BlendnetBeta_Tests.framework; path = "Pods-BlendnetBeta_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0541785E872CABF9BFF1626E90F575D /* Pods-BlendnetBeta_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlendnetBeta_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		90DFA6A220923944C451DD26227679F3 /* Frameworks */ = {
+		A81FD6B3E876A12816060356068D3925 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D4DD1138E17B1C8EBD4936E160592C /* Foundation.framework in Frameworks */,
+				1C944179C8971035527C796E162C44F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0297AEB99FAB501C697AC649C79A26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7018CEB98FE07EDDD9CAE786BAAEFA19 /* AVFoundation.framework in Frameworks */,
+				5458955352DC62E3D7C5C67A8DEAE79F /* AVKit.framework in Frameworks */,
+				E36B1CD157A0B690A792B95FB39CCE5D /* Foundation.framework in Frameworks */,
+				D558E5F0D1B958B1C3B45B48A01C4B8C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6A23B51B77FB6E6D6994E997A97F134E /* Development Pods */ = {
+		33F4AEB17CA64A2B0AEEFCE065392003 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B4597036922FB0A2792A886FCB396AC7 /* BlendnetBeta */,
+				3FF03BB017C2EC4C814321EC460FFC6E /* BlendnetBeta */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3FF03BB017C2EC4C814321EC460FFC6E /* BlendnetBeta */ = {
+			isa = PBXGroup;
+			children = (
+				10BA04BCF6EE716EDA7F85EAC3EA6306 /* BlendnetView.swift */,
+				63D4AAFC3F2DA20DA80AB29233FABF87 /* Extensions.swift */,
+				594598F960C9DAD55440AF362F8B287B /* Pod */,
+				79475EBFA881AA9D3C5A2C040028AC8A /* Support Files */,
+			);
+			name = BlendnetBeta;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		594598F960C9DAD55440AF362F8B287B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				14AF101BA988D8E01C43E843457B4FD9 /* BlendnetBeta.podspec */,
+				CD85B220AC1106595AA4668FDC872810 /* LICENSE */,
+				84A3F28326F990B1D8C081F44D833EBD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		79475EBFA881AA9D3C5A2C040028AC8A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4353F307E5E93FCBCC01406C99C35250 /* BlendnetBeta.modulemap */,
+				91358E0742276246ED1B3A377BD51D1A /* BlendnetBeta.xcconfig */,
+				1160316049BF532C316AD9338EEE4388 /* BlendnetBeta-dummy.m */,
+				74E38EC182539127402187C86F8784EA /* BlendnetBeta-prefix.pch */,
+				2B1F9F555C72763D1AABAA6D52C7C17B /* BlendnetBeta-umbrella.h */,
+				0F0F13191C2D8843F99D66FEE27ADF9C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BlendnetBeta";
+			sourceTree = "<group>";
+		};
+		7BAF95A79E6EBC753F4BC129BE3685B1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				66B8E9936CF35ACD7E49728F6EC5AA13 /* AVFoundation.framework */,
+				8716DF756C7DB4EFCF8240A674A4A7A5 /* AVKit.framework */,
+				A1FAAE9EFCAEC1F23EB26BDC8FD39D33 /* Foundation.framework */,
+				BE297D271152016B9E9347DDED2FFB7A /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7D0E1B9AD836143B10584EA764A28670 /* Pods-BlendnetBeta_Tests */ = {
@@ -69,12 +157,13 @@
 			path = "Target Support Files/Pods-BlendnetBeta_Tests";
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		9CB092F8C891DE2177A23FECD8B57A9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				11D4B004FD648FD73B1F0905AB0FFC2E /* BlendnetBeta.framework */,
+				D2CD578910844FF70F4FFD8F3BD6B279 /* Pods_BlendnetBeta_Tests.framework */,
 			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		AD1879B02424B2B648E4C3D829FA1FF2 /* Targets Support Files */ = {
@@ -85,82 +174,82 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B4597036922FB0A2792A886FCB396AC7 /* BlendnetBeta */ = {
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BDE191DC3A9ED1E8CE0B32288E546CD6 /* Pod */,
+				7BAF95A79E6EBC753F4BC129BE3685B1 /* iOS */,
 			);
-			name = BlendnetBeta;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		BDE191DC3A9ED1E8CE0B32288E546CD6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C6B28D20951AEB1D1232274BAC4F93BF /* BlendnetBeta.podspec */,
-				38D20118D9E84B61320C05D9CDD655DD /* LICENSE */,
-				348B36DFF0920A959AD3C757B145F2B4 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		C11B3B0F0F45EFE40C209EC22CF2E284 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E5567F0B7AB56328C852CB6FB91C9ED8 /* Pods_BlendnetBeta_Tests.framework */,
-			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
-				6A23B51B77FB6E6D6994E997A97F134E /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C11B3B0F0F45EFE40C209EC22CF2E284 /* Products */,
+				33F4AEB17CA64A2B0AEEFCE065392003 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				9CB092F8C891DE2177A23FECD8B57A9B /* Products */,
 				AD1879B02424B2B648E4C3D829FA1FF2 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		59572A550C04D5C81A2EDB8419691FCC /* Headers */ = {
+		56704A688394D27D513AECEC6A6419CC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EEF2A57E65881ADA8CDC0036EDF2B11 /* Pods-BlendnetBeta_Tests-umbrella.h in Headers */,
+				987DBA4BF3F1E6FD0C29AE96D6AAC129 /* BlendnetBeta-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F588304CD96ED039DD06B6C9674F73A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5F55C0AB26A7452D5251EA5C502999 /* Pods-BlendnetBeta_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		305C039C59BA5B83D21F42EE3533C811 /* Pods-BlendnetBeta_Tests */ = {
+		8B1A65AD537A4C95DEEA1F2B0D0072B8 /* Pods-BlendnetBeta_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F721A13ED7D218D4B1690FD83BFB534 /* Build configuration list for PBXNativeTarget "Pods-BlendnetBeta_Tests" */;
+			buildConfigurationList = 80E748DBCE8EB373A80D42D25C4C0BBB /* Build configuration list for PBXNativeTarget "Pods-BlendnetBeta_Tests" */;
 			buildPhases = (
-				59572A550C04D5C81A2EDB8419691FCC /* Headers */,
-				A84B2A5FA8CD42BA414EBD4143F1BF54 /* Sources */,
-				90DFA6A220923944C451DD26227679F3 /* Frameworks */,
-				80A22798135E43CC801915014E7BF729 /* Resources */,
+				F588304CD96ED039DD06B6C9674F73A9 /* Headers */,
+				0C6868D83208251C91FB3FC22FAFC2E5 /* Sources */,
+				A81FD6B3E876A12816060356068D3925 /* Frameworks */,
+				7F1A4D984C63262476FB7120081B9E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5543F5FDD044D871795B611C4567F83F /* PBXTargetDependency */,
+			);
+			name = "Pods-BlendnetBeta_Tests";
+			productName = "Pods-BlendnetBeta_Tests";
+			productReference = D2CD578910844FF70F4FFD8F3BD6B279 /* Pods_BlendnetBeta_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C425D5206783C0EAF65005F8F6B6CA79 /* BlendnetBeta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF484AA8423352270C56CA3D53253CF9 /* Build configuration list for PBXNativeTarget "BlendnetBeta" */;
+			buildPhases = (
+				56704A688394D27D513AECEC6A6419CC /* Headers */,
+				BDDDEE29352302E5564294E84EB0FC4C /* Sources */,
+				F0297AEB99FAB501C697AC649C79A26C /* Frameworks */,
+				F37355EE031959B39D6C4E8AED90F818 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-BlendnetBeta_Tests";
-			productName = "Pods-BlendnetBeta_Tests";
-			productReference = E5567F0B7AB56328C852CB6FB91C9ED8 /* Pods_BlendnetBeta_Tests.framework */;
+			name = BlendnetBeta;
+			productName = BlendnetBeta;
+			productReference = 11D4B004FD648FD73B1F0905AB0FFC2E /* BlendnetBeta.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -180,17 +269,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C11B3B0F0F45EFE40C209EC22CF2E284 /* Products */;
+			productRefGroup = 9CB092F8C891DE2177A23FECD8B57A9B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				305C039C59BA5B83D21F42EE3533C811 /* Pods-BlendnetBeta_Tests */,
+				C425D5206783C0EAF65005F8F6B6CA79 /* BlendnetBeta */,
+				8B1A65AD537A4C95DEEA1F2B0D0072B8 /* Pods-BlendnetBeta_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		80A22798135E43CC801915014E7BF729 /* Resources */ = {
+		7F1A4D984C63262476FB7120081B9E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37355EE031959B39D6C4E8AED90F818 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -200,18 +297,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A84B2A5FA8CD42BA414EBD4143F1BF54 /* Sources */ = {
+		0C6868D83208251C91FB3FC22FAFC2E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C0B1B7858DFEC5E5EB74DDD72D2CEBF /* Pods-BlendnetBeta_Tests-dummy.m in Sources */,
+				751D40396AD3E21E01A8D5148FEE9181 /* Pods-BlendnetBeta_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDDEE29352302E5564294E84EB0FC4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9C9038F60053FCBF68A9D9857C3F44 /* BlendnetBeta-dummy.m in Sources */,
+				26B75CCED69F91AD473837C70D160409 /* BlendnetView.swift in Sources */,
+				176807FA032792D6463ADAE4682DB3C7 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5543F5FDD044D871795B611C4567F83F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlendnetBeta;
+			target = C425D5206783C0EAF65005F8F6B6CA79 /* BlendnetBeta */;
+			targetProxy = 796F482DF2EF2210C55903B6C70E600F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		46A5650C0E45DC5BCB3E50D34D36657D /* Debug */ = {
+		2ADA92B4AA6C3BEFD03A8A25EBB21ACD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 98CD243E9CB4FBBFEE5A468503A3CB58 /* Pods-BlendnetBeta_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -238,6 +354,69 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75385B6DB434822B5C5074AC975BA3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91358E0742276246ED1B3A377BD51D1A /* BlendnetBeta.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlendnetBeta/BlendnetBeta-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlendnetBeta/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlendnetBeta/BlendnetBeta.modulemap";
+				PRODUCT_MODULE_NAME = BlendnetBeta;
+				PRODUCT_NAME = BlendnetBeta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F2681EB918F521683C2B2C12FC04DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91358E0742276246ED1B3A377BD51D1A /* BlendnetBeta.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlendnetBeta/BlendnetBeta-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlendnetBeta/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlendnetBeta/BlendnetBeta.modulemap";
+				PRODUCT_MODULE_NAME = BlendnetBeta;
+				PRODUCT_NAME = BlendnetBeta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -310,40 +489,6 @@
 			};
 			name = Debug;
 		};
-		B6612EA74E88997607E52C8EA241CB66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5A14E167DD6F865F751E388DCBFB50B /* Pods-BlendnetBeta_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BlendnetBeta_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BlendnetBeta_Tests/Pods-BlendnetBeta_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		BF17B80227EE551582927B0FBE01EF40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -406,6 +551,40 @@
 			};
 			name = Release;
 		};
+		CBE831DAA08198CDD6D88600BEC9B595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A14E167DD6F865F751E388DCBFB50B /* Pods-BlendnetBeta_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BlendnetBeta_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlendnetBeta_Tests/Pods-BlendnetBeta_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,11 +597,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F721A13ED7D218D4B1690FD83BFB534 /* Build configuration list for PBXNativeTarget "Pods-BlendnetBeta_Tests" */ = {
+		80E748DBCE8EB373A80D42D25C4C0BBB /* Build configuration list for PBXNativeTarget "Pods-BlendnetBeta_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46A5650C0E45DC5BCB3E50D34D36657D /* Debug */,
-				B6612EA74E88997607E52C8EA241CB66 /* Release */,
+				2ADA92B4AA6C3BEFD03A8A25EBB21ACD /* Debug */,
+				CBE831DAA08198CDD6D88600BEC9B595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF484AA8423352270C56CA3D53253CF9 /* Build configuration list for PBXNativeTarget "BlendnetBeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2681EB918F521683C2B2C12FC04DB4 /* Debug */,
+				75385B6DB434822B5C5074AC975BA3AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
