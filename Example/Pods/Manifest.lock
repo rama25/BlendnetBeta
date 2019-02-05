@@ -1,5 +1,5 @@
 PODS:
-  - BlendnetBeta (0.1.1)
+  - BlendnetBeta (1.0.0)
 
 DEPENDENCIES:
   - BlendnetBeta (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BlendnetBeta: c940aa17f97e490e3e619706081b92356405f4ae
+  BlendnetBeta: e2aa5534b6468be0ac1789f53395e7f60c37fa3c
 
 PODFILE CHECKSUM: 7c20992cb6a0e8e2d371dc1849e92f4c689501e3
 

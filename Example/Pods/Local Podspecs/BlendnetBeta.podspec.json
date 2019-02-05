@@ -1,6 +1,6 @@
 {
   "name": "BlendnetBeta",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "summary": "A meaningful description of BlendnetBeta.",
   "description": "An extra-long meaningful description of BlendnetBeta.",
   "homepage": "https://github.com/rama25/BlendnetBeta",
@@ -13,8 +13,8 @@
   },
   "source": {
     "git": "https://github.com/rama25/BlendnetBeta.git",
-    "tag": "0.1.1",
-    "commit": "5705a2b121a8d290578689d8a094b5c8f1e296eb"
+    "tag": "1.0.0",
+    "commit": "38fee072a7afa3d42c7c36257c608fbd638fb293"
   },
   "platforms": {
     "ios": "9.0"

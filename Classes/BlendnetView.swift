@@ -13,7 +13,7 @@ import Photos
 
 open class BlendnetView: UIView {
     
-    var controller = UIViewController()
+    public var controller = UIViewController()
     
     lazy var videosTableView: UITableView = {
         
